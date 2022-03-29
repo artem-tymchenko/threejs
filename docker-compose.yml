@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: threejs-prototype-frontend
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    command: npm run start
+
