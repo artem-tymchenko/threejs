@@ -10,5 +10,5 @@ services:
     command: npm run start
 #    stdin_open: true
 #    tty: true
-#    volumes:
-#      - ./frontend/src:/usr/src/app/src
+    volumes:
+      - ./frontend/src:/usr/src/app/src
